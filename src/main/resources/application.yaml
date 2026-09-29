@@ -1,0 +1,8 @@
+ktor:
+  deployment:
+    port: 9000
+  application:
+    modules:
+      - io.github.imhammer.SerializationKt.configureSerialization
+      - io.github.imhammer.WebsocketsKt.configureWebsockets
+      - io.github.imhammer.RoutingKt.configureRouting
