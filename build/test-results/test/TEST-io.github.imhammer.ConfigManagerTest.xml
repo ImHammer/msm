@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.imhammer.ConfigManagerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:33:16.997Z" hostname="DESKTOP-8L11V0K" time="0.009">
+  <properties/>
+  <testcase name="testSaveAndReloadConfig" classname="io.github.imhammer.ConfigManagerTest" time="0.005"/>
+  <testcase name="testLoadOrCreateDefaults" classname="io.github.imhammer.ConfigManagerTest" time="0.003"/>
+  <system-out><![CDATA[[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

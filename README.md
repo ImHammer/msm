@@ -115,6 +115,8 @@ Para ver o manual completo de comandos coloridos, execute `msm help` ou consulte
 
 - 📖 [Referência Completa de Comandos da CLI (docs/COMMANDS.md)](docs/COMMANDS.md)
 - ⚙️ [Guia de Instalação e Atualização na VPS (docs/INSTALLATION.md)](docs/INSTALLATION.md)
+- 🚀 [Guia Sequencial de Release do Agent (docs/RELEASING_AGENT.md)](docs/RELEASING_AGENT.md)
+- 📦 [Guia de Publicação do SDK Node no NPM (packages/msm-node/docs/PUBLISHING.md)](packages/msm-node/docs/PUBLISHING.md)
 - 📱 [Documentação da API REST & WebSocket para o App (docs/APP_API.md)](docs/APP_API.md)
 - 🔌 [Especificação do Protocolo IPC para Criação de SDKs (docs/SDK_SPEC.md)](docs/SDK_SPEC.md)
 

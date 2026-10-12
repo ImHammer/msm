@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.imhammer.MonitoringTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:33:17.012Z" hostname="DESKTOP-8L11V0K" time="1.321">
+  <properties/>
+  <testcase name="testRegisterInstanceAndPushEvent" classname="io.github.imhammer.MonitoringTest" time="0.292"/>
+  <testcase name="testEventSocketServerAuthentication" classname="io.github.imhammer.MonitoringTest" time="0.33"/>
+  <testcase name="testHostMonitorAddAndPoll" classname="io.github.imhammer.MonitoringTest" time="0.186"/>
+  <testcase name="testEventSocketServerSdkIngestion" classname="io.github.imhammer.MonitoringTest" time="0.32"/>
+  <testcase name="testDirectInstanceDataAndSectorHierarchy" classname="io.github.imhammer.MonitoringTest" time="0.003"/>
+  <testcase name="testHostMonitorWithCustomSectors" classname="io.github.imhammer.MonitoringTest" time="0.184"/>
+  <testcase name="testPayloadValidator" classname="io.github.imhammer.MonitoringTest" time="0.004"/>
+  <system-out><![CDATA[[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+13:33:17.705 [Test worker] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+13:33:17.789 [Test worker] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+13:33:18.178 [Test worker] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+13:33:18.240 [Test worker] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+13:33:18.301 [Test worker] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

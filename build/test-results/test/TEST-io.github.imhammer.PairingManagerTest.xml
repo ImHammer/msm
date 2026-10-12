@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.imhammer.PairingManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:33:18.336Z" hostname="DESKTOP-8L11V0K" time="0.02">
+  <properties/>
+  <testcase name="testRequestPairingSuccess" classname="io.github.imhammer.PairingManagerTest" time="0.006"/>
+  <testcase name="testRequestPairingDisabled" classname="io.github.imhammer.PairingManagerTest" time="0.002"/>
+  <testcase name="testRevokeDevice" classname="io.github.imhammer.PairingManagerTest" time="0.006"/>
+  <testcase name="testRejectPairing" classname="io.github.imhammer.PairingManagerTest" time="0.002"/>
+  <testcase name="testAcceptPairingWithCode" classname="io.github.imhammer.PairingManagerTest" time="0.004"/>
+  <system-out><![CDATA[[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

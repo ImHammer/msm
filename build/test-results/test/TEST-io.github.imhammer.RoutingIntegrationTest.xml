@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.imhammer.RoutingIntegrationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:33:18.358Z" hostname="DESKTOP-8L11V0K" time="2.305">
+  <properties/>
+  <testcase name="testPairingDisabledReturnsForbidden" classname="io.github.imhammer.RoutingIntegrationTest" time="1.881"/>
+  <testcase name="testPairingRequestAndStatusFlow" classname="io.github.imhammer.RoutingIntegrationTest" time="0.07"/>
+  <testcase name="testGetSystemStats" classname="io.github.imhammer.RoutingIntegrationTest" time="0.042"/>
+  <testcase name="testAdminMonitorRoutesWithSectors" classname="io.github.imhammer.RoutingIntegrationTest" time="0.203"/>
+  <testcase name="testGetInstances" classname="io.github.imhammer.RoutingIntegrationTest" time="0.034"/>
+  <testcase name="testAdminPairingRequestsAndAcceptFlow" classname="io.github.imhammer.RoutingIntegrationTest" time="0.041"/>
+  <testcase name="testGetStatus" classname="io.github.imhammer.RoutingIntegrationTest" time="0.031"/>
+  <system-out><![CDATA[[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+
+?[33m[Pairing]?[0m Nova solicitação recebida de '?[36miPhone do Teste?[0m' | Código OTP: ?[32m?[1m137899?[0m
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+msm@DESKTOP-8L11V0K > 13:33:20.461 [DefaultDispatcher-worker-2 @request#52] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+13:33:20.526 [DefaultDispatcher-worker-2 @request#60] WARN  i.g.i.m.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+
+?[33m[Pairing]?[0m Nova solicitação recebida de '?[36mAndroid Teste?[0m' | Código OTP: ?[32m?[1m586994?[0m
+[Config] Modo não interativo ativo. Utilizando configurações padrão: nome=DESKTOP-8L11V0K, porta=9000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

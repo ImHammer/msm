@@ -181,19 +181,12 @@ class Pm2MonitorProvider(private val allowMockInDev: Boolean = true) : HostMonit
                 val restarts = pm2Env?.get("restart_time")?.jsonPrimitive?.intOrNull ?: 0
                 val now = System.currentTimeMillis()
 
-                val directMetrics = mutableListOf(
-                    MonitoringData(id = "status", name = "Status do Processo", type = SectorType.STATUS, valueType = ValueType.STATUS, category = SectorCategory.INFRASTRUCTURE, lastValue = status, lastUpdatedAt = now),
-                    MonitoringData(id = "cpu", name = "Uso de CPU", type = SectorType.GAUGE, valueType = ValueType.PERCENTAGE, category = SectorCategory.INFRASTRUCTURE, unit = "%", lastValue = String.format(java.util.Locale.US, "%.1f", cpu), lastUpdatedAt = now),
-                    MonitoringData(id = "memory", name = "Memória RAM", type = SectorType.GAUGE, valueType = ValueType.BYTES, category = SectorCategory.INFRASTRUCTURE, unit = "bytes", lastValue = memoryBytes.toString(), lastUpdatedAt = now),
-                    MonitoringData(id = "restarts", name = "Reinicializações (Restarts)", type = SectorType.COUNTER, valueType = ValueType.NUMBER, category = SectorCategory.INFRASTRUCTURE, unit = "restarts", lastValue = "$restarts", lastUpdatedAt = now)
-                )
-
                 val instance = MonitoringInstance(
                     id = "pm2:$name",
                     name = "PM2: $name",
                     source = InstanceSource.HOST,
                     providerId = id,
-                    data = directMetrics,
+                    data = mutableListOf(),
                     sectors = mutableListOf(
                         Sector(id = "status", name = "Status do Processo", type = SectorType.STATUS, valueType = ValueType.STATUS, category = SectorCategory.INFRASTRUCTURE, lastValue = status, lastUpdatedAt = now),
                         Sector(id = "cpu", name = "Uso de CPU", type = SectorType.GAUGE, valueType = ValueType.PERCENTAGE, category = SectorCategory.INFRASTRUCTURE, unit = "%", lastValue = String.format(java.util.Locale.US, "%.1f", cpu), lastUpdatedAt = now),
@@ -516,20 +509,13 @@ class Pm2MonitorProvider(private val allowMockInDev: Boolean = true) : HostMonit
 
         for (name in mockNames) {
             if (monitorAll || targets.contains(name)) {
-                val directMetrics = mutableListOf(
-                    MonitoringData(id = "status", name = "Status do Processo", type = SectorType.STATUS, valueType = ValueType.STATUS, category = SectorCategory.INFRASTRUCTURE, lastValue = "ONLINE", lastUpdatedAt = now),
-                    MonitoringData(id = "cpu", name = "Uso de CPU", type = SectorType.GAUGE, valueType = ValueType.PERCENTAGE, category = SectorCategory.INFRASTRUCTURE, unit = "%", lastValue = "1.2", lastUpdatedAt = now),
-                    MonitoringData(id = "memory", name = "Memória RAM", type = SectorType.GAUGE, valueType = ValueType.BYTES, category = SectorCategory.INFRASTRUCTURE, unit = "bytes", lastValue = (85L * 1024 * 1024).toString(), lastUpdatedAt = now),
-                    MonitoringData(id = "restarts", name = "Reinicializações (Restarts)", type = SectorType.COUNTER, valueType = ValueType.NUMBER, category = SectorCategory.INFRASTRUCTURE, unit = "restarts", lastValue = "0", lastUpdatedAt = now)
-                )
-
                 list.add(
                     MonitoringInstance(
                         id = "pm2:$name",
                         name = "PM2 (Simulado): $name",
                         source = InstanceSource.HOST,
                         providerId = id,
-                        data = directMetrics,
+                        data = mutableListOf(),
                         sectors = mutableListOf(
                             Sector(id = "status", name = "Status do Processo", type = SectorType.STATUS, valueType = ValueType.STATUS, category = SectorCategory.INFRASTRUCTURE, lastValue = "ONLINE", lastUpdatedAt = now),
                             Sector(id = "cpu", name = "Uso de CPU", type = SectorType.GAUGE, valueType = ValueType.PERCENTAGE, category = SectorCategory.INFRASTRUCTURE, unit = "%", lastValue = "1.2", lastUpdatedAt = now),

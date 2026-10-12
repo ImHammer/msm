@@ -1,0 +1,42 @@
+2026-10-09 13:33:17.705 [Test worker] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:17.789 [Test worker] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:18.178 [Test worker] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:18.240 [Test worker] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:18.301 [Test worker] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:19.156 [DefaultDispatcher-worker-2 @call-context#3] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.127 [DefaultDispatcher-worker-2 @call-context#3] INFO  io.ktor.test - Application started in 0.991 seconds.
+2026-10-09 13:33:20.129 [DefaultDispatcher-worker-1 @coroutine#5] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.129 [DefaultDispatcher-worker-1 @coroutine#5] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.245 [DefaultDispatcher-worker-2 @call-context#15] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.271 [DefaultDispatcher-worker-2 @call-context#15] INFO  io.ktor.test - Application started in 0.026 seconds.
+2026-10-09 13:33:20.271 [DefaultDispatcher-worker-3 @coroutine#17] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.271 [DefaultDispatcher-worker-3 @coroutine#17] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.315 [DefaultDispatcher-worker-2 @call-context#31] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.339 [DefaultDispatcher-worker-2 @call-context#31] INFO  io.ktor.test - Application started in 0.024 seconds.
+2026-10-09 13:33:20.339 [DefaultDispatcher-worker-1 @coroutine#33] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.339 [DefaultDispatcher-worker-1 @coroutine#33] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.359 [DefaultDispatcher-worker-2 @call-context#43] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.380 [DefaultDispatcher-worker-2 @call-context#43] INFO  io.ktor.test - Application started in 0.022 seconds.
+2026-10-09 13:33:20.380 [DefaultDispatcher-worker-1 @coroutine#45] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.380 [DefaultDispatcher-worker-1 @coroutine#45] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.461 [DefaultDispatcher-worker-2 @request#52] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:20.526 [DefaultDispatcher-worker-2 @request#60] WARN  i.g.i.monitoring.Pm2MonitorProvider - PM2 [padrão] falhou com código 1: 'pm2' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+2026-10-09 13:33:20.562 [DefaultDispatcher-worker-8 @call-context#67] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.583 [DefaultDispatcher-worker-8 @call-context#67] INFO  io.ktor.test - Application started in 0.022 seconds.
+2026-10-09 13:33:20.583 [DefaultDispatcher-worker-1 @coroutine#69] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.583 [DefaultDispatcher-worker-1 @coroutine#69] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.596 [DefaultDispatcher-worker-8 @call-context#79] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.614 [DefaultDispatcher-worker-8 @call-context#79] INFO  io.ktor.test - Application started in 0.018 seconds.
+2026-10-09 13:33:20.614 [DefaultDispatcher-worker-7 @coroutine#81] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.614 [DefaultDispatcher-worker-7 @coroutine#81] INFO  io.ktor.test - Responding at https://localhost:443
+2026-10-09 13:33:20.636 [DefaultDispatcher-worker-8 @call-context#103] INFO  io.ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2026-10-09 13:33:20.656 [DefaultDispatcher-worker-8 @call-context#103] INFO  io.ktor.test - Application started in 0.02 seconds.
+2026-10-09 13:33:20.656 [DefaultDispatcher-worker-1 @coroutine#105] INFO  io.ktor.test - Responding at http://localhost:80
+2026-10-09 13:33:20.656 [DefaultDispatcher-worker-1 @coroutine#105] INFO  io.ktor.test - Responding at https://localhost:443

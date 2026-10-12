@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.imhammer.ConfigCliTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:33:16.823Z" hostname="DESKTOP-8L11V0K" time="0.172">
+  <properties/>
+  <testcase name="testAgentInfoPrinterWithoutPriorLoadDoesNotThrow" classname="io.github.imhammer.ConfigCliTest" time="0.067"/>
+  <testcase name="testShowConfig" classname="io.github.imhammer.ConfigCliTest" time="0.062"/>
+  <testcase name="testTokenSubcommand" classname="io.github.imhammer.ConfigCliTest" time="0.016"/>
+  <testcase name="testRegenerateTokenFlag" classname="io.github.imhammer.ConfigCliTest" time="0.014"/>
+  <testcase name="testSetInvalidPortIsRejected" classname="io.github.imhammer.ConfigCliTest" time="0.002"/>
+  <testcase name="testSetConfigUpdatesValues" classname="io.github.imhammer.ConfigCliTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

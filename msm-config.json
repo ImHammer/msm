@@ -1,0 +1,10 @@
+{
+    "name": "DESKTOP-8L11V0K",
+    "port": 9000,
+    "pairingEnabled": true,
+    "secretKey": "4ec11661-893f-4872-a2fe-333fd1970d82",
+    "sdkToken": "msm_sdk_a1535fe32b9547ddb1ff9106fc9677a1",
+    "devices": [],
+    "monitors": [],
+    "providerDefaultSectors": {}
+}

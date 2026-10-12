@@ -34,7 +34,7 @@ class UpdateCli {
 
         val updateCommand = when {
             localScript.exists() -> "${forceDownload}${customUrl}bash /opt/msm/install.sh"
-            else -> "${forceDownload}${customUrl}curl -fsSL https://raw.githubusercontent.com/imhammer/msm/master/install.sh | bash"
+            else -> "${forceDownload}${customUrl}curl -fsSL https://raw.githubusercontent.com/imhammer/msm/main/install.sh | bash"
         }
 
         try {
